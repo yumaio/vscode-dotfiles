@@ -6,5 +6,6 @@ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 mkdir ~/.rbenv/plugins
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
+source ~/dotfiles/dotfiles/.bashrc
 rbenv install 2.6.3
 rbenv global 2.6.3
