@@ -12,4 +12,10 @@ rbenv global 2.6.3
 cd ~/workspace
 gem install bundler:2.1.4
 bundle install
-yarn install
+
+code --install-extension rebornix.ruby
+code --install-extension sianglim.slim
+code --install-extension auchenberg.vscode-browser-preview
+code --install-extension bung87.rails
+code --install-extension install misogi.ruby-rubocop
+code --install-extension vscodevim.vim
