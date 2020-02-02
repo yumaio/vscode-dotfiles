@@ -9,3 +9,7 @@ git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/r
 source ~/dotfiles/dotfiles/.bashrc
 rbenv install 2.6.3
 rbenv global 2.6.3
+cd ~/workspace
+gem install bundler:2.1.4
+bundle install
+yarn install
