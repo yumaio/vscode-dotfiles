@@ -13,23 +13,3 @@ rbenv global 2.6.3
 cd ~/workspace
 gem install bundler:2.1.4
 bundle install
-
-code --install-extension rebornix.ruby
-code --install-extension sianglim.slim
-code --install-extension auchenberg.vscode-browser-preview
-code --install-extension bung87.rails
-code --install-extension install misogi.ruby-rubocop
-code --install-extension vscodevim.vim
-code --install-extension humao.rest-client
-code --install-extension MS-CEINTL.vscode-language-pack-ja
-code --install-extension ionutvmi.path-autocomplete
-code --install-extension mechatroner.rainbow-csv
-code --install-extension vscode-icons-team.vscode-icons
-code --install-extension esbenp.prettier-vscode
-code --install-extension donjayamanne.githistory
-code --install-extension CoenraadS.bracket-pair-colorizer
-code --install-extension IBM.output-colorizer
-code --install-extension emilast.LogFileHighlighter
-code --install-extension shardulm94.trailing-spaces
-code --install-extension chrmarti.regex
-code --install-extension eamodio.gitlens
