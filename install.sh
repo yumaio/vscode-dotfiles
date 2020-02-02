@@ -1,12 +1,15 @@
-sudo apt-get update
-sudo apt-get -y install git curl g++ make
-sudo apt-get -y install zlib1g-dev libssl-dev libreadline-dev
-sudo apt-get -y install libyaml-dev libxml2-dev libxslt-dev
-sudo apt-get -y install sqlite3 libsqlite3-dev nodejs
-cd
-git clone https://github.com/sstephenson/rbenv.git .rbenv
+sudo apt update
+sudo apt -y install git curl g++ make
+sudo apt -y install zlib1g-dev libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt-dev sqlite3 libsqlite3-dev 
+sudo apt -y install nodejs autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+exec $SHELL
+source ~/.bashrc
 mkdir -p ~/.rbenv/plugins
-cd ~/.rbenv/plugins
-git clone https://github.com/sstephenson/ruby-build.git
-rbenv install 2.6.3
-rbenv global 2.6.3
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
+rbenv install 2.4.1
+rbenv global 2.4.1
+gem update --system
