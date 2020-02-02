@@ -13,3 +13,4 @@ rbenv global 2.6.3
 cd ~/workspace
 gem install bundler:2.1.4
 bundle install
+wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
