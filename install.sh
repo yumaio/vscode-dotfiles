@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt -y install git curl g++ make build-essential apt-utils nodejs
 sudo apt -y install zlib1g-dev libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt-dev sqlite3 sqlite3-doc libsqlite3-dev 
-sudo apt -y install autoconf bison libssl-dev libyaml-dev libreadline-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm5 libgdbm-dev
+sudo apt -y install autoconf bison libssl-dev libyaml-dev libreadline-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 mkdir ~/.rbenv/plugins
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
@@ -19,3 +19,16 @@ code --install-extension auchenberg.vscode-browser-preview
 code --install-extension bung87.rails
 code --install-extension install misogi.ruby-rubocop
 code --install-extension vscodevim.vim
+code --install-extension humao.rest-client
+code --install-extension MS-CEINTL.vscode-language-pack-ja
+code --install-extension ionutvmi.path-autocomplete
+code --install-extension mechatroner.rainbow-csv
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension esbenp.prettier-vscode
+code --install-extension donjayamanne.githistory
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension IBM.output-colorizer
+code --install-extension emilast.LogFileHighlighter
+code --install-extension shardulm94.trailing-spaces
+code --install-extension chrmarti.regex
+code --install-extension eamodio.gitlens
