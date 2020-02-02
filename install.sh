@@ -5,9 +5,6 @@ sudo apt-get -y install libyaml-dev libxml2-dev libxslt-dev
 sudo apt-get -y install sqlite3 libsqlite3-dev nodejs
 cd
 git clone https://github.com/sstephenson/rbenv.git .rbenv
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-exec $SHELL
 mkdir -p ~/.rbenv/plugins
 cd ~/.rbenv/plugins
 git clone https://github.com/sstephenson/ruby-build.git
