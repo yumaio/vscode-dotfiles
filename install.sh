@@ -10,6 +10,7 @@ source ~/.bashrc
 mkdir -p ~/.rbenv/plugins
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
-rbenv install 2.4.1
-rbenv global 2.4.1
-gem update --system
+rbenv install 2.6.3
+rbenv global 2.6.3
+bundle install
+yarn install
