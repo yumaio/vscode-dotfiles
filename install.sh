@@ -11,5 +11,3 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 rbenv install 2.6.3
 rbenv global 2.6.3
-bundle install
-yarn install
