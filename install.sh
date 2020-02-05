@@ -6,11 +6,10 @@ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 mkdir ~/.rbenv/plugins
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
-cd ~/
-source .bashrc
+source ~/dotfiles/.bashrc
 rbenv install 2.6.3
 rbenv global 2.6.3
-cd ~/workspace
 gem install bundler:2.1.4
+cd ~/workspace
 bundle install
 wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
