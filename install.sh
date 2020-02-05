@@ -14,3 +14,5 @@ gem install solargraph
 cd ~/workspace
 bundle install
 wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
