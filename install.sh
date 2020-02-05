@@ -10,6 +10,7 @@ source ~/dotfiles/.bashrc
 rbenv install 2.6.3
 rbenv global 2.6.3
 gem install bundler:2.1.4
+gem install solargraph
 cd ~/workspace
 bundle install
 wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
